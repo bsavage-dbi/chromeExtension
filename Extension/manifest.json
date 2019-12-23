@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+
+    "name": "Extension Tools",
+    "description": "description will be here",
+    "version": "2.2",
+    "author": "Raz Levy",
+    "browser_action": {
+        "default_icon": "icon.jpg",
+        "default_title": "Extension Tools",
+        "default_popup": "main.html"
+    },
+    "background":{
+        "scripts": ["mainApp.js","script.js"]
+
+    },
+    "permissions": [
+        "activeTab",
+        "clipboardWrite",
+        "clipboardRead"
+    ]
+}
